@@ -15,7 +15,7 @@ st.set_page_config(
 )
 alt.theme.enable('dark')
 
-all_data = pd.read_csv('/mount/src/e-commerce-analisis-dicoding/dasboard/all_data.csv')
+all_data = pd.read_csv('dasboard/all_data.csv')
 
 with st.sidebar:
     st.title("Ecommerce Public Dashboard")
@@ -173,7 +173,7 @@ def get_customer_type_counts(df):
     })
     return customer_type_counts
 
-all_data = pd.read_csv('all_data.csv')
+all_data = pd.read_csv('dasboard/all_data.csv')
 
 with st.container():
     st.title("Produk yang paling banyak dibeli")
