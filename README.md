@@ -38,7 +38,7 @@ Proyek Analisis Data ini mencakup beberapa langkah penting, mulai dari memntukan
 
 2. Jalankan dashboard:
    ```
-   streamlit run dashboard/dashboard.py
+   streamlit run dasboard/dashboard.py
    ```
 
 Dengan mengikuti langkah-langkah di atas, Anda dapat membuat dan menjalankan proyek analisis data lengkap dengan dashboard interaktif menggunakan Streamlit.
